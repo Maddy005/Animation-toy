@@ -1,0 +1,720 @@
+*{
+    margin: 0;
+    padding: 0;
+    background: rgba(64, 93, 223, 0.425);
+
+}
+.baf{
+    position: absolute;
+    background: red;
+    width: 200px;
+    height: 170px;
+    left: 47%;
+    top: 50px;
+    border-radius: 50%;
+    box-shadow: 10px 10px rgba(255, 255, 255, 0.534);
+}
+.head{
+   position: absolute;
+   top:20% ;
+   width: 100px;
+   height: 20vh;
+   left: 50%;
+   background: rgb(78, 213, 223);
+   border-radius: 1px 29px 5px 33px;
+   box-shadow: 10px 10px rgba(0, 0, 0, 0.603);
+   transition: 2s all ease;
+   animation-name: a;
+   animation-duration: 2s;
+   animation-iteration-count: infinite;
+}
+@keyframes a1{
+    from{
+        background-color:rgb(0, 0, 0);
+
+    }
+    to{
+        background-color: blueviolet;
+    }
+   
+}
+.eye1{
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    width: 22px;
+    height: 22px;
+    border-radius: 11px 16px 2px 19px;
+    background-color: rgb(235, 235, 235);
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.603);
+
+    transition: 2s all ease;
+    animation-name: a2;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    
+    
+}
+@keyframes a2{
+    from{
+        background-color:rgb(209, 209, 209);
+
+    }
+    to{
+        background-color: rgb(0, 0, 0);
+    }
+   
+}
+.dot1{
+    position: absolute;
+    top: 10px;
+    left: 12px;
+    width: 10px;
+    height: 10px;
+    background: rgb(255, 238, 0);
+    border-radius: 30px;
+    transition: 2s all ease;
+    animation-name: a;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes a4{
+    0%{
+        background-color:rgb(0, 0, 0);
+
+    }
+    25%{
+        background-color: rgb(187, 255, 0);
+    }
+    50%{background-color: blueviolet;}
+    75%{background-color: rgb(64, 226, 43);}
+    100%{background-color: rgb(44, 11, 226);}
+
+
+   
+}
+
+.eye2{
+
+    position: absolute;
+    top: 20px;
+    left: 68px;
+    width: 22px;
+    height: 22px;
+    border-radius: 11px 11px 10px 2px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.603);
+    transition: 2s all ease;
+    animation-name: a2;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    
+    
+}
+@keyframes a2{
+    from{
+        background-color:rgb(209, 209, 209);
+
+    }
+    to{
+        background-color: rgb(0, 0, 0);
+    }
+   
+}
+
+.dot2{
+    position: absolute;
+    top: 10px;
+    left: 2px;
+    width: 10px;
+    height: 10px;
+    background: rgb(241, 245, 0);
+    border-radius: 30px;
+    transition: 2s all ease;
+    animation-name: a;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes a4{
+    0%{
+        background-color:rgb(0, 0, 0);
+        left: 30px;
+
+    }
+    25%{
+        background-color: rgb(206, 6, 6);
+        top: 40%;
+    }
+    50%{background-color: blueviolet;}
+    75%{background-color: rgb(64, 226, 43);}
+    100%{background-color: rgb(44, 11, 226);}
+
+
+   
+}
+
+
+.mouth{
+    
+    position: absolute;
+    top: 70%;
+    left: 30%;
+    width: 50px;
+    height: 12px;
+    background: rgb(0, 0, 0);
+   border-radius: 1px 3px 3px 4px;
+   box-shadow: 2px 2px rgba(0, 0, 0, 0.603);
+}
+
+
+.nose{
+    position: relative;
+    width: 12px;
+    height: 20px;
+    background-color: rgb(238, 137, 14);
+    top: 56px;
+    left: 44px;
+    transform: rotate(89deg);
+    border-radius: 0px 50px 50px 4px;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.603);
+    transition: 2s all ease;
+    animation-name: a4;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes a4{
+
+    0%{
+        background-color:rgb(189, 3, 3);
+        transform: rotate(0deg);
+
+    }
+    25%{
+        background-color: rgb(206, 6, 163);
+        transform: rotate(40deg);
+    }
+    50%{background-color: rgba(127, 0, 247, 0.589);
+        transform: rotate(100deg);}
+    75%{background-color: rgb(226, 53, 0);
+        transform: rotate(160deg);}
+    100%{background-color: rgb(90, 226, 11);
+        transform: rotate(379deg);}
+
+    
+   
+}
+
+#a{
+    position: absolute;
+    top: 1%;
+    left: -1%;
+    width: 8px;
+    height: 13px;
+    background: rgb(179, 179, 179);
+    transition: 2s all ease;
+    animation-name: a7;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    
+    
+}
+@keyframes a7{
+    from{
+        background-color:rgb(95, 8, 235);
+
+    }
+    to{
+        background-color: rgb(211, 192, 174);
+    }
+   
+}
+
+
+
+#b{
+    position: absolute;
+    top: 1%;
+    left: 22%;
+    width: 8px;
+    height: 13px;
+    background: rgb(201, 201, 201);
+    transition: 2s all ease;
+    animation-name: a7;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    
+    
+}
+@keyframes a7{
+    from{
+        background-color:rgb(255, 0, 0);
+
+    }
+    to{
+        background-color: rgb(255, 255, 255);
+    }
+   
+}
+    
+
+#c{
+
+    position: absolute;
+    top: 1%;
+    left: 44%;
+    width: 8px;
+    height: 13px;
+    background: rgb(201, 201, 201);    transition: 2s all ease;
+    animation-name: a6;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    
+    
+}
+@keyframes a6{
+    from{
+        background-color:rgb(218, 221, 9);
+
+    }
+    to{
+        background-color: rgb(211, 192, 174);
+    }
+   
+}
+
+
+
+#d{
+
+    
+    position: absolute;
+    top: 1%;
+    left: 66%;
+    width: 8px;
+    height: 13px;
+    background: rgb(201, 201, 201);
+    animation-name: a8;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    
+    
+}
+@keyframes a8{
+    from{
+        background-color:rgb(0, 60, 255);
+
+    }
+    to{
+        background-color: rgb(211, 192, 174);
+    }
+   
+}
+
+
+#e{
+    position: absolute;
+    top: 1%;
+    left: 88%;
+    width: 8px;
+    height: 13px;
+    background: rgb(201, 201, 201); 
+    animation-name: a9;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    
+    
+}
+@keyframes a9{
+    from{
+        background-color:rgb(21, 255, 0);
+
+    }
+    to{
+        background-color: rgb(211, 192, 174);
+    }
+   
+}
+
+.bod{
+    position: relative;
+    width: 30px;
+    height: 50px;
+    top: 37%;
+    z-index: -3;
+    left: 53%;
+    background: rebeccapurple;
+    border-radius: 10px;
+}
+.bod2{
+    width: 130px;
+    height: 160px;
+    position: relative;
+    top:35%;
+    left: 50%;
+    background-color: rgba(0, 0, 0, 0.658);
+    
+    box-shadow: 2px 20px rgba(0, 0, 0, 0.747);
+    border-radius: 20px 30px 30px 30px;
+}
+.h1{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    left: 49%;
+    top: 75px;
+    border-radius: 50%;
+    background-color: brown;
+
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.603);
+    transition: 2s all ease;
+    animation-name: a0;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    
+    
+}
+@keyframes a0{
+    from{
+        background-color:rgb(131, 77, 219);
+
+    }
+    to{
+        background-color: rgb(126, 101, 223);
+    }
+   
+}
+
+
+.h2{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    left: 58%;
+    top:7%;
+    border-radius: 50%;
+    background-color: brown;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.603);
+    animation-name: a0;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    
+    
+}
+@keyframes a0{
+    from{
+        background-color:rgb(0, 201, 184);
+
+    }
+    to{
+        background-color: rgb(126, 104, 214);
+    }
+   
+}
+
+
+
+#line1{
+    position: relative;
+    width: 10px;
+    height: 100px;
+    top: -40px;
+    left: 30px;
+    transform:rotate(-30deg);
+    background-color: beige;
+    border-radius: 0px 2px 30px;
+    animation-name: b1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    
+    
+}
+@keyframes b1{
+    0%{
+        z-index: -1;
+        
+
+        transform: rotate(-170deg);
+    }
+    25%{
+        z-index: -4;
+       
+        transform: rotate(-130deg);
+    }
+    50%{z-index: -6;
+        
+        transform: rotate(-200deg);}
+   100%{
+    z-index: -6;
+    ;
+    left: 40px;
+    transform: rotate(-10deg);}
+   }
+
+
+     
+    
+
+
+#line2{
+
+    
+    position: relative;
+    width: 10px;
+    height: 100px;
+    top: -50px;
+    left: -140%;
+    
+    background-color: beige;
+    border-radius: 0px 2px 30px; 
+    animation-name: b2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    
+    
+}
+@keyframes b2{
+    0%{
+        z-index: -1;
+      
+
+        transform: rotate(200deg);
+    }
+    25%{
+        z-index: -4;
+
+        transform: rotate(130deg);
+    }
+    50%{z-index: -6;
+      
+        transform: rotate(100deg);}
+   100%{
+    z-index: -6;
+
+    transform: rotate(200deg);}
+   }
+
+
+
+
+#leg{
+    position: relative;
+    width: 20;
+    height: 20%;
+    background: black;
+    left: 51%;
+    top: 27%;
+    z-index: 100;
+    z-index: -1;
+    border-radius: 10px 21px 30px; 
+    animation-name: bk;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    
+    
+}
+@keyframes bk{
+    0%{
+        z-index: -1;
+      
+
+        transform: rotate(-140deg);
+    }
+    25%{
+        z-index: -4;
+
+        transform: rotate(-80deg);
+    }
+    50%{z-index: -6;
+      
+        transform: rotate(-20deg);}
+   100%{
+    z-index: -6;
+
+    transform: rotate(0deg);}
+   }
+
+
+
+
+#leg2{
+
+    
+    position: relative;
+    width: 20;
+    height: 20%;
+    background: black;
+    left: 57%;
+    top: 7%;
+    z-index: 100;
+    z-index: -1;
+    border-radius: 10px 21px 30px; 
+    animation-name: b7;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    
+    
+}
+@keyframes b7{
+    0%{
+        z-index: -1;
+      
+
+        transform: rotate(-10deg);
+    }
+    25%{
+        z-index: -4;
+
+        transform: rotate(-80deg);
+    }
+    50%{z-index: -6;
+      
+        transform: rotate(-90deg);}
+   100%{
+    z-index: -6;
+
+    transform: rotate(0deg);}
+   }
+
+
+
+
+#sm{
+    position: relative;
+    width: 50px;
+    height: 30px;
+    top: 80%;
+    left: -26px;
+    background: rgb(238, 255, 0);
+    border-radius: 10px 9px 29px 10px; 
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.603);
+
+
+}
+.fas{
+    z-index: 3;
+    width: 30px;
+    height: 30px;
+    left: 30px;
+    position: relative;
+    top: 50px;
+    left:50px;
+    background: transparent;
+    animation-name: a0;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    
+    
+}
+@keyframes a0{
+    from{
+        color:rgb(0, 201, 184);
+
+    }
+    to{
+        color: rgb(126, 104, 214);
+    }
+   
+}
+    
+
+
+#cr{
+    position: relative;
+    width: 30px;
+    height:30px;
+    background: rgb(0, 0, 0);
+    border-radius: 50%;
+    top: 80px;
+    left: -14px;
+    animation-name: b4;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    
+    
+}
+@keyframes b4{
+    from{
+        background-color:rgb(23, 243, 3);
+
+    }
+    to{
+        background-color: rgb(245, 0, 0);
+    }
+   
+}
+   
+
+#cr1{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background: rgb(0, 0, 0);
+    border-radius: 50%;
+    top: 80px;
+    left: -9px;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.603);
+    animation-name: b4;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    
+    
+}
+@keyframes b4{
+    from{
+        background-color:rgb(192, 30, 138);
+
+    }
+    to{
+        background-color: rgb(216, 22, 16);
+    }
+   
+}
+     
+
+#m{
+    width: 4px;
+    height: 19px;
+    position: relative;
+    top: 20px;z-index: -1;
+    transform: rotate(15deg);
+    left: 3px;border-radius: 3px 3px;
+    background-color: beige;
+}
+#n{
+    width: 4px;
+    height: 19px;
+    position: relative;
+    top: 5px;z-index: -1;
+    transform: rotate(1deg);
+    left: 16px;border-radius: 3px 3px;
+    background-color:#fff
+}
+#o{
+    width: 4px;
+    height: 19px;
+    position: relative;
+    top: -19px;z-index: -1;
+    transform: rotate(-24deg);
+    left: 30px;border-radius: 3px 3px;
+    background-color:#fff
+}
+#p{
+    width: 6px;
+    height: 19px;
+    position: relative;
+    top: -50px;z-index: -1;
+    transform: rotate(60deg);
+    left: -8px;border-radius: 3px 3px;
+    background-color:#fff
+}
+
+
+
+
+    
